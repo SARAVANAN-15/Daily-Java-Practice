@@ -1,0 +1,10 @@
+public class LoopsEx {
+   public static void main(String[] args) {
+		int num=7;
+		int i=2;
+		for(;i<=num;i++) {
+			if (num%i==0)
+				break;}
+		System.out.println(i==num?"prime number":"not an prime number ");
+	}
+}
