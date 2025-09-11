@@ -1,0 +1,17 @@
+public class Day8 {
+
+	public static void main(String[] args) {
+		int num=1234321;
+		int temp=num;
+		int rev=0;
+		
+		while(num!=0) {
+			int last=num%10;
+			rev=rev*10+last;
+			num/=10;
+			
+		}
+		System.out.println(temp==rev?"palindrone":"not palindrone");
+		}
+	
+	}
