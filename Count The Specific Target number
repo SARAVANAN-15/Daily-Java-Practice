@@ -1,0 +1,16 @@
+public class Target {
+	public static void main(String[]args) {
+	
+	int num=166567866;
+	int target=6;
+	int count=0;
+	while(num!=0) {
+		int last=num%10;
+		if(last==target) 
+			count++;
+			num/=10;		
+	   }
+		System.out.println(count);
+
+	}
+}
