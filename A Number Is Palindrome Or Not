@@ -1,0 +1,15 @@
+public class Factor {
+	public static void main(String[]args) {	
+	int num=567898765;
+	int temp=num;
+	int rev=0;
+	while(temp!=0) {
+		int last=temp%10;
+	    System.out.print(last);
+	  rev=rev*10+last;
+		temp/=10;		
+	}
+	System.out.println("");
+	System.out.println(rev==num?"palindrone":"not a pali");
+	}
+}
