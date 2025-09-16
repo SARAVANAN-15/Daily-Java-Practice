@@ -1,0 +1,20 @@
+public class Ck {
+	public static void main(String[]args) {
+		int num=18;
+		int temp=num;
+		int sum=0;
+		while(num!=0) {
+			int last=num%10;
+			sum+=last;
+			num/=10;
+	
+		}
+		System.out.println("sum "+sum);
+		
+	
+		System.out.println("modules of num "+18%9);
+		System.out.println(temp%sum==0?"harshad":"not harsh");
+	}
+
+
+}
