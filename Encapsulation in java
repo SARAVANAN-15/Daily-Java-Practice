@@ -1,0 +1,37 @@
+class Student {
+
+    // private variables (data hiding)
+    private int rollNo;
+    private String name;
+
+    // setter methods
+    public void setRollNo(int r) {
+        rollNo = r;
+    }
+
+    public void setName(String n) {
+        name = n;
+    }
+
+    // getter methods
+    public int getRollNo() {
+        return rollNo;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+public class EncapsulationExample {
+    public static void main(String[] args) {
+
+        Student s = new Student();
+
+        s.setRollNo(101);
+        s.setName("Saravanan");
+
+        System.out.println("Roll No: " + s.getRollNo());
+        System.out.println("Name: " + s.getName());
+    }
+}
